@@ -5,7 +5,7 @@
         "seedsDirectory": "resources/database/seeds/",
         "properties": {
             "defaultGrammar": "AutoDiscover@qb",
-            "schema": "${DB_DATABASE}",
+            "schema": "${DB_SCHEMA}",
             "migrationsTable": "cfmigrations",
             "connectionInfo": {
                 "password": "${DB_PASSWORD}",
